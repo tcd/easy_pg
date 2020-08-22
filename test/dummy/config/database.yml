@@ -1,0 +1,22 @@
+# PostgreSQL. Versions 9.3 and up are supported.
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  port: 5432
+  host: localhost
+  username: postgres
+  password: password
+
+test:
+  <<: *default
+  database: rails_dummy_test
+
+development:
+  <<: *default
+  database: rails_dummy_development
+
+production:
+  <<: *default
+  database: rails_dummy_production
