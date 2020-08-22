@@ -1,14 +1,15 @@
-# PgUtil
+# EasyPg
 
-[![Gem](https://img.shields.io/gem/v/pg_util)][rubygems]
-[![Build Status](https://travis-ci.org/tcd/pg_util.svg?branch=master)][travis-ci]
-[![License](https://img.shields.io/github/license/tcd/pg_util)][license]
+[![Gem](https://img.shields.io/gem/v/easy_pg)][rubygems]
+[![Build Status](https://travis-ci.org/tcd/easy_pg.svg?branch=master)][travis-ci]
+[![License](https://img.shields.io/github/license/tcd/easy_pg)][license]
 [![Documentation](http://img.shields.io/badge/docs-rubydoc.info-blue.svg)][docs]
 
-[rubygems]: https://rubygems.org/gems/pg_util
-[travis-ci]: https://travis-ci.org/tcd/pg_util
-[license]: https://github.com/tcd/pg_util/blob/master/LICENSE.txt
-[docs]: https://www.rubydoc.info/gems/pg_util/0.1.0
+[rubygems]: https://rubygems.org/gems/easy_pg
+[travis-ci]: https://travis-ci.org/tcd/easy_pg
+[license]: https://github.com/tcd/easy_pg/blob/master/LICENSE.txt
+[docs]: https://www.rubydoc.info/gems/easy_pg/0.1.0
+[rake-task]: https://gist.github.com/hopsoft/56ba6f55fe48ad7f8b90
 
 Why? Idk, I just trust my own more.
 
@@ -17,7 +18,7 @@ Why? Idk, I just trust my own more.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "pg_util"
+gem "easy_pg"
 ```
 
 And then execute:
@@ -30,7 +31,7 @@ bundle install
 Or install it yourself as:
 
 ```
-gem install pg_util
+gem install easy_pg
 ```
 
 ## Usage
@@ -46,7 +47,7 @@ To release a new version, update the version number in `version.rb`, and then ru
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/tcd/pg_util.
+Bug reports and pull requests are welcome on GitHub at https://github.com/tcd/easy_pg.
 
 ## License
 

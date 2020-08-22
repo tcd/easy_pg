@@ -1,3 +1,3 @@
-module PgUtil
+module EasyPg
   VERSION = "0.1.0".freeze()
 end
